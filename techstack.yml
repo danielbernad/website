@@ -1,7 +1,8 @@
 repo_name: danielbernad/website
 report_id: 6572f24784f6905037fe9f8b94cd4ffd
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T19:01:15+00:00'
+timestamp: '2024-01-05T08:38:15+00:00'
 requested_by: maguinis
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: Dart
   description: A new web programming language with libraries, a virtual machine, and
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: Bootstrap
   description: Simple and flexible HTML, CSS, and JS for popular UI components and
@@ -57,8 +62,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: Flutter
@@ -70,7 +75,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Cross-Platform Mobile Development
   image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
-  detection_source: examples/state_mgmt/simple/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/examples/_animation/basic_hero_animation/pubspec.yaml
+  detection_source: examples/_animation/basic_hero_animation/pubspec.yaml
   last_updated_by: Shams Zakhour
   last_updated_on: 2017-09-23 00:16:39.000000000 Z
 - name: Firebase
@@ -81,6 +87,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Filip Hracek
   last_updated_on: 2019-05-03 21:10:12.000000000 Z
@@ -93,6 +100,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -102,6 +110,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
@@ -111,7 +120,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: Travis CI
@@ -123,6 +133,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/danielbernad/website/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: John Ryan
   last_updated_on: 2019-07-19 16:47:33.000000000 Z
@@ -136,7 +147,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-09 23:29:02.000000000 Z
@@ -148,6 +159,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/danielbernad/website/blob/master/pubspec.yaml
   detection_source: pubspec.yaml
   last_updated_by: Devon Carew
   last_updated_on: 2015-10-10 18:16:00.000000000 Z
@@ -159,6 +171,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/danielbernad/website/blob/master/tool/docker/Dockerfile
   detection_source: tool/docker/Dockerfile
   last_updated_by: Greg Spencer
   last_updated_on: 2018-08-09 20:38:50.000000000 Z
@@ -168,6 +181,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/danielbernad/website/blob/master/src/404.html
   detection_source: src/404.html
   last_updated_by: Fernando Toledo
   last_updated_on: 2018-11-26 20:36:15.000000000 Z
@@ -181,8 +195,8 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: Shell
@@ -194,6 +208,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/danielbernad/website
   detection_source: Repo Metadata
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
@@ -203,7 +218,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: test
@@ -211,7 +227,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
-  detection_source: examples/state_mgmt/simple/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.yaml
+  detection_source: example/pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-09-06 15:50:03.000000000 Z
 - name: build_runner
@@ -223,8 +240,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: pubspec.lock
-  detection_source: src/_packages/dartpad_picker/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/pubspec.lock
+  detection_source: pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-12-11 22:40:48.000000000 Z
 - name: build_web_compilers
@@ -236,7 +253,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: src/_packages/dartpad_picker/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/src/_packages/dartpad_picker/pubspec.yaml
   detection_source: src/_packages/dartpad_picker/pubspec.yaml
   last_updated_by: Jon Tippens
   last_updated_on: 2019-09-27 16:27:49.000000000 Z
@@ -249,7 +266,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Brian Egan
   last_updated_on: 2019-03-05 19:04:53.000000000 Z
@@ -262,7 +279,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Filip Hracek
   last_updated_on: 2019-04-17 21:43:57.000000000 Z
@@ -275,8 +292,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/_animation/basic_staggered_animation/pubspec.yaml
-  detection_source: examples/state_mgmt/simple/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/examples/_animation/basic_staggered_animation/pubspec.yaml
+  detection_source: examples/_animation/basic_staggered_animation/pubspec.yaml
   last_updated_by: Shams Zakhour
   last_updated_on: 2017-11-18 03:56:07.000000000 Z
 - name: firebase
@@ -288,7 +305,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/pubspec.lock
   detection_source: pubspec.yaml
   last_updated_by: Brett Morgan
   last_updated_on: 2019-05-14 18:29:52.000000000 Z
@@ -301,8 +318,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
-  detection_source: examples/state_mgmt/simple/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
+  detection_source: examples/_animation/basic_hero_animation/pubspec.yaml
   last_updated_by: Shams Zakhour
   last_updated_on: 2017-09-23 00:16:39.000000000 Z
 - name: github
@@ -314,7 +331,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/pubspec.lock
   detection_source: pubspec.yaml
   last_updated_by: Brett Morgan
   last_updated_on: 2019-05-14 18:29:52.000000000 Z
@@ -327,8 +344,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
-  detection_source: examples/internationalization/intl_example/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
+  detection_source: examples/internationalization/add_language/pubspec.yaml
   last_updated_by: Hans Muller
   last_updated_on: 2019-04-19 22:57:56.000000000 Z
 - name: intl_translation
@@ -339,6 +356,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: https://github.com/danielbernad/website/blob/master/examples/internationalization/intl_example/pubspec.yaml
   detection_source: examples/internationalization/intl_example/pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-02-02 13:12:14.000000000 Z
@@ -351,7 +369,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/pubspec.lock
   detection_source: pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-11-27 20:40:10.000000000 Z
@@ -364,8 +382,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
-  detection_source: pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
+  detection_source: example/pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-09-06 15:50:03.000000000 Z
 - name: path_provider
@@ -378,7 +396,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Brian Egan
   last_updated_on: 2019-03-05 19:04:53.000000000 Z
@@ -391,7 +409,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: src/_packages/dartpad_picker/pubspec.yaml
   last_updated_by: Jon Tippens
   last_updated_on: 2019-09-27 16:27:49.000000000 Z
@@ -405,7 +423,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: examples/state_mgmt/simple/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/examples/state_mgmt/simple/pubspec.yaml
   detection_source: examples/state_mgmt/simple/pubspec.yaml
   last_updated_by: Filip Hracek
   last_updated_on: 2019-07-09 22:03:58.000000000 Z
@@ -418,7 +436,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Filip Hracek
   last_updated_on: 2019-04-17 21:43:57.000000000 Z
@@ -431,7 +449,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Brian Egan
   last_updated_on: 2019-02-22 21:43:28.000000000 Z
@@ -444,8 +462,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
-  detection_source: examples/state_mgmt/simple/pubspec.yaml
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
+  detection_source: example/pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-09-06 15:50:03.000000000 Z
 - name: transparent_image
@@ -457,7 +475,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Filip Hracek
   last_updated_on: 2019-04-17 21:43:57.000000000 Z
@@ -470,7 +488,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-09-06 15:50:03.000000000 Z
@@ -484,7 +502,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Brian Egan
   last_updated_on: 2019-03-05 19:04:53.000000000 Z
@@ -497,7 +515,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: example/pubspec.yaml
   last_updated_by: Filip Hracek
   last_updated_on: 2019-04-17 21:43:57.000000000 Z
@@ -510,7 +528,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: example/pubspec.lock
+  detection_source_url: https://github.com/danielbernad/website/blob/master/example/pubspec.lock
   detection_source: pubspec.yaml
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-16 15:00:43.000000000 Z
@@ -525,8 +543,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18817/default_b17f14dbef6c1275120b34d9ec2eff5942499bd5.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
   vulnerabilities:
@@ -566,8 +584,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19215/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: font-awesome-sass
@@ -580,8 +598,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19332/default_40e6914cce3b1c16bbc5956f19d9789bde49a3c6.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: html-proofer
@@ -594,8 +612,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19495/default_8a79db3626c57c6bb46227c448ffd01861613398.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: rake
@@ -608,8 +626,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: sass
@@ -622,8 +640,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18882/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: uglifier
@@ -637,8 +655,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: Gemfile.lock
-  detection_source: tool/docker/Gemfile
+  detection_source_url: https://github.com/danielbernad/website/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: Patrice Chalin
   last_updated_on: 2018-08-17 22:27:58.000000000 Z
 - name: canonical-path
@@ -651,7 +669,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18339/default_d5b77997c52e60064f8f7efaaf6a6e4c314ba8e4.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-09 23:29:02.000000000 Z
@@ -666,7 +684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-09 23:29:02.000000000 Z
@@ -680,7 +698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16957/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Filip Hracek
   last_updated_on: 2019-05-03 21:10:12.000000000 Z
@@ -694,7 +712,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16485/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-09 23:29:02.000000000 Z
@@ -708,7 +726,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16676/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-09 23:29:02.000000000 Z
@@ -722,7 +740,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: package.json
+  detection_source_url: https://github.com/danielbernad/website/blob/master/package.json
   detection_source: package.json
   last_updated_by: Patrice Chalin
   last_updated_on: 2019-01-09 23:29:02.000000000 Z
