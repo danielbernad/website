@@ -3,19 +3,19 @@
 ## Tech Stack
 danielbernad/website is built on the following main stack:
 
-- [Firebase](https://firebase.google.com/) – Realtime Backend / API
-- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- [Dart](https://www.dartlang.org/) – Languages
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- [Jekyll](http://jekyllrb.com/) – Static Site Generators
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Dart](https://www.dartlang.org/) – Languages
-- [Debian](https://www.debian.org/) – Operating Systems
-- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [Flutter](https://flutter.io/) – Cross-Platform Mobile Development
-- [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [Firebase](https://firebase.google.com/) – Realtime Backend / API
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Travis CI](http://travis-ci.com/) – Continuous Integration
+- [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- [Debian](https://www.debian.org/) – Operating Systems
+- [Jekyll](http://jekyllrb.com/) – Static Site Generators
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -25,19 +25,19 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 danielbernad/website is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/116/cZLxNFZS.jpg' alt='Firebase'/> [Firebase](https://firebase.google.com/) – Realtime Backend / API
-- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/1646/Twitter-02.png' alt='Dart'/> [Dart](https://www.dartlang.org/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1101/C9QJ7V3X.png' alt='Bootstrap'/> [Bootstrap](http://getbootstrap.com/) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg' alt='Jekyll'/> [Jekyll](http://jekyllrb.com/) – Static Site Generators
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1646/Twitter-02.png' alt='Dart'/> [Dart](https://www.dartlang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1656/vd4gAekh.png' alt='Debian'/> [Debian](https://www.debian.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/7180/flutter-mark-square-100.png' alt='Flutter'/> [Flutter](https://flutter.io/) – Cross-Platform Mobile Development
-- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/116/cZLxNFZS.jpg' alt='Firebase'/> [Firebase](https://firebase.google.com/) – Realtime Backend / API
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/1656/vd4gAekh.png' alt='Debian'/> [Debian](https://www.debian.org/) – Operating Systems
+- <img width='25' height='25' src='https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg' alt='Jekyll'/> [Jekyll](http://jekyllrb.com/) – Static Site Generators
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png' alt='UglifyJS'/> [UglifyJS](http://lisperator.net/uglifyjs/) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -48,7 +48,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [danielbernad/website](https://github.com/danielbernad/website)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|55<br/>Tools used|01/05/24 <br/>Report generated|
+|55<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -265,7 +265,7 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[activesupport](https://rubygems.org/activesupport)|v5.2.3|08/17/18|Patrice Chalin |MIT|[CVE-2020-8165](https://github.com/advisories/GHSA-2p68-f74v-9wc6) (Critical)<br/>[CVE-2023-28120](https://github.com/advisories/GHSA-pj73-v5mw-pm9j) (Moderate)<br/>[CVE-2023-22796](https://github.com/advisories/GHSA-j6gc-792m-qgm2) (Low)<br/>[CVE-2023-38037](https://github.com/advisories/GHSA-cr5q-6q9f-rq6q) (Low)|
+|[activesupport](https://rubygems.org/activesupport)|v5.2.3|08/17/18|Patrice Chalin |MIT|[CVE-2020-8165](https://github.com/advisories/GHSA-2p68-f74v-9wc6) (Critical)<br/>[CVE-2023-28120](https://github.com/advisories/GHSA-pj73-v5mw-pm9j) (Moderate)<br/>[CVE-2023-38037](https://github.com/advisories/GHSA-cr5q-6q9f-rq6q) (Low)<br/>[CVE-2023-22796](https://github.com/advisories/GHSA-j6gc-792m-qgm2) (Low)|
 |[autoprefixer-rails](https://rubygems.org/autoprefixer-rails)|v9.6.1|08/17/18|Patrice Chalin |MIT|N/A|
 |[font-awesome-sass](https://rubygems.org/font-awesome-sass)|v5.9.0|08/17/18|Patrice Chalin |MIT|N/A|
 |[html-proofer](https://rubygems.org/html-proofer)|v3.11.1|08/17/18|Patrice Chalin |MIT|N/A|
