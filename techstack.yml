@@ -2,7 +2,7 @@ repo_name: danielbernad/website
 report_id: 6572f24784f6905037fe9f8b94cd4ffd
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:38:15+00:00'
+timestamp: '2024-02-29T18:49:14+00:00'
 requested_by: maguinis
 provider: github
 branch: master
@@ -561,18 +561,18 @@ tools:
     detected_date: Mar 16
     severity: moderate
     first_patched: 6.1.7.3
-  - name: ReDoS based DoS vulnerability in Active Support's underscore
-    cve_id: CVE-2023-22796
-    cve_url: https://github.com/advisories/GHSA-j6gc-792m-qgm2
-    detected_date: Jan 19
-    severity: low
-    first_patched: 6.1.7.1
   - name: Active Support Possibly Discloses Locally Encrypted Files
     cve_id: CVE-2023-38037
     cve_url: https://github.com/advisories/GHSA-cr5q-6q9f-rq6q
     detected_date: Aug 24
     severity: low
     first_patched: 6.1.7.5
+  - name: ReDoS based DoS vulnerability in Active Support's underscore
+    cve_id: CVE-2023-22796
+    cve_url: https://github.com/advisories/GHSA-j6gc-792m-qgm2
+    detected_date: Jan 19
+    severity: low
+    first_patched: 6.1.7.1
 - name: autoprefixer-rails
   description: Parse CSS and add vendor prefixes to CSS rules usingvalues from the
     Can I Use website
